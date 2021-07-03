@@ -1,8 +1,11 @@
 #!/bin/bash
+
 apt-get -y update
 apt-get -y upgrade
+
 cd /mnt/server/garrysmod/cfg
 rm -r mount.cfg
+
 echo '
 "mountcfg"
 {
@@ -10,11 +13,17 @@ echo '
 //	"tf"		"C:\mytf2server\tf"
 }
 ' > mount.cfg
+
 mkdir /mnt/server/cstrike
 cd /mnt/server/cstrike
+
 apt-get install -y wget
+
 wget http://de-01.horizonnetworks.uk/css.zip
+
 apt install -y zip
 apt install -y unzip
+
 unzip css.zip
-#rm -r css.zip
+
+rm -r css.zip
