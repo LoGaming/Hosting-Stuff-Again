@@ -26,4 +26,4 @@ apt install -y unzip
 
 unzip css.zip
 
-rm -r css.zip
+#rm -r css.zip
