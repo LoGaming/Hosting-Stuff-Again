@@ -14,8 +14,7 @@ echo '
 }
 ' > mount.cfg
 
-mkdir /mnt/server/cstrike
-cd /mnt/server/cstrike
+cd /mnt/server
 
 apt-get install -y wget
 
