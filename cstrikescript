@@ -18,7 +18,7 @@ cd /mnt/server
 
 apt-get install -y wget
 
-wget hhtps://archive.horizonnetworks.uk/Resources/Pterodactyl%20Mods/css.zip
+wget https://archive.horizonnetworks.uk/Resources/Pterodactyl%20Mods/css.zip
 
 apt install -y zip
 apt install -y unzip
